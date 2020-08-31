@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Dancer Club</title>
+</head>
+<body>
+    <form action="">
+        <h1>Registration Form:Dancer Club</h1>
+        <table border="1px solid black" width="100%">
+            <tr>
+               <th><label for="name">Name: &nbsp;</label> </th> 
+               <td> <input type="text" name="Name" id="name" ></td>
+              
+            </tr>
+            <tr>
+                <th><label for="ic">IC no: &nbsp;</label> </th> 
+                <td> <input type="text" name="IC" id="ic" >-          
+                  <input type="text" name="IC" id="ic" >-
+                  <input type="text" name="IC" id="ic" >
+                </td>
+            </tr>
+            <tr>
+                <th><label for="address">Address: &nbsp;</label> </th> 
+                <td>    <textarea row=400 cols=200 name="address" ></textarea></td>
+
+
+            </tr>
+            <tr>
+                <th>    <label for="gender">Gender: &nbsp;</label> </th>
+                <td><input type="radio" name="Gender" value ="male">Male
+                    <input type="radio" name="Gender" value ="Female">Female</td>
+            </tr>
+            <tr>
+                <th><label for="danceType">Dance Type: &nbsp;</label></th>
+                <td>                        
+                    <input type="checkbox" name="Dance Type" value ="1">Zapin
+                     <input type="checkbox" name="Dance Type" value ="2">Joget
+                    <input type="checkbox" name="Dance Type" value ="3">Inang
+                    <input type="checkbox">Lion Dance 
+
+                </td>
+            </tr>
+            <tr>
+
+                <th><label for="Competition">Competition: &nbsp;</label></th>
+                <td>
+                    <Select onscroll="scrollY">
+                        <option value="State Level" >State Level</option> 
+                        <option >National Level</option> 
+                        <option >StateInternational  Level</option> 
+
+                    </Select>
+                </td>
+
+
+            </tr>
+            <tr>
+                
+                <th><label for="nationality">Nationality: &nbsp;</label></th>
+                <td>
+                    <Select>
+                        <option  >-please select-</option> 
+
+                        <option value= "India">India</option> 
+                        <option value="American" >American</option> 
+                        <option value="Pakistan" >  Pakistan</option> 
+
+                    </Select>
+                    </td>
+            </tr>
+            <tr>
+                <th>password:</th>
+                        <td> <input type="password"name="password" placeholder="enter the password"></td>
+            </tr>
+
+
+        </table>
+        <input type="submit" value="Register me">
+        <input type="reset" value="cancel">
+
+
+    </form>
+    
+</body>
+</html>
